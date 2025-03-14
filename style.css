@@ -29,6 +29,16 @@ h2, p {
     color: #f9faf8;
 }
 
+.hero-image-container {
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    gap: 10px;
+    flex: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .navbar-container {
     color: #f9faf8;
     display: flex;
@@ -63,19 +73,13 @@ h2, p {
     align-items: flex-start;
 }
 
-.hero-image-container {
-    display: flex;
-    align-items: center;
-    color: #f9faf8;
-    gap: 10px;
-    flex: 1;
-}
-
 .info-container {
     display: flex;
     flex-direction: column;
     text-align: center;
     flex: 1;
+    padding-top: 20px;
+    gap: 20px;  
 }
 
 .cards-container {
@@ -91,10 +95,11 @@ h2, p {
     justify-content: center;
     align-items: center;
     width: 120px;
+    gap: 5px;
 }
 
 .border-square {
-    border-radius: 25px;
+    border-radius: 15px;
     border: solid #3882F6;
     width: 120px;
     height: 120px;
@@ -103,13 +108,39 @@ h2, p {
 .quote-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
+    background-color: #e5e7eb;
+    padding: 50px 150px; 
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: flex-end;
 }
 
 .signup-container {
     display: flex;
+    background-color: #3882f6; 
+    margin: 50px 150px;
+    padding: 24px 90px;
+    border-radius: 5px; 
+    color: white;  
+}
+
+.call-container {
+    display: flex;
     flex-direction: column;
-    flex: 1;    
+    flex: 1;
 }
 
 ul {

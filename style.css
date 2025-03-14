@@ -72,8 +72,9 @@ header, .signup-container, .info-container, .signup-container, .quote-container 
 
 .cards-container {
     display: flex;
-    border: solid black;
-    gap: 10px;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 0px 50px 50px 50px;
 }
 
 .card {
@@ -81,12 +82,14 @@ header, .signup-container, .info-container, .signup-container, .quote-container 
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 120px;
 }
 
 .border-square {
+    border-radius: 25px;
     border: solid #3882F6;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 ul {

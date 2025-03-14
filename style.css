@@ -5,6 +5,9 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 header, footer {
@@ -14,6 +17,12 @@ header, footer {
 header, .signup-container, .info-container, .signup-container, .quote-container {
     padding: 0 150px;
 }
+
+h2, p {
+    margin: 0;
+    padding: 0;
+}
+
 
 #logo {
     font-size: 24px;
@@ -40,20 +49,18 @@ header, .signup-container, .info-container, .signup-container, .quote-container 
     font-size: 48px;
     color: f9faf8;
     font-weight: 900;
-    border: solid white;
 }
 
 .hero-para {
     font-size: 18px;
     color: e5e7eb;
-    border: solid white;
 }
 
 .hero-text-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    border: solid white;
 }
 
 .hero-image-container {
@@ -61,13 +68,14 @@ header, .signup-container, .info-container, .signup-container, .quote-container 
     align-items: center;
     color: #f9faf8;
     gap: 10px;
-    border: solid white;
+    flex: 1;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex: 1;
 }
 
 .cards-container {
@@ -90,6 +98,18 @@ header, .signup-container, .info-container, .signup-container, .quote-container 
     border: solid #3882F6;
     width: 120px;
     height: 120px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
 }
 
 ul {

@@ -1,8 +1,5 @@
-html {
-    font-family: 'Roboto';
-}
-
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -18,8 +15,8 @@ header, .signup-container, .signup-container, .quote-container {
     padding: 0 300px;
 }
 
-.signup-container, .info-container, .quote-container, .hero-image-container {
-    height: 300px;
+.signup-container, .info-container, .quote-container {
+    height: 450px;
 }
 
 h2, p {
@@ -41,6 +38,7 @@ h2, p {
     padding-top: 50px;
     padding-bottom: 50px;
     flex: 1;
+    height: 300px;
 }
 
 .navbar-container {
@@ -79,7 +77,6 @@ h2, p {
     justify-content: center;
     align-items: flex-start;
     gap: 8px;
-    max-height: 200px;
 }
 
 .hero-text-container button {
@@ -143,12 +140,13 @@ h2, p {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    font-weight: 200;
 }
 
 .author {
     font-size: 28px;
     color: #1f2937;
-    font-weight: 900;
+    font-weight: 500;
     align-self: flex-end;
 }
 

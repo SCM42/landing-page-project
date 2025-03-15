@@ -6,13 +6,13 @@ Final project for the Flexbox chapter of The Odin Project curriculm. I was provi
 <details open>
 <summary>Provided Design</summary>
 
-![alt text](image.png)
+![alt text](images/targetdesign.png)
 
 </details>
 
 <details open>
 <summary>Provided Styles & Colors</summary>
 
-![alt text](image-1.png)
+![alt text](images/stylepage.png)
 
 </details>

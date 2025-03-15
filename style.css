@@ -52,11 +52,14 @@ h2, p {
 
 .placeholder-image {
     background: darkgrey;
-    width: 800px;
+    width: 400px;
     height: 175px;
+    margin-left: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;    
 }
 
 .hero-main-text {
@@ -75,6 +78,16 @@ h2, p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 5px;
+}
+
+.hero-text-container button {
+    background-color: #3882F6;
+    border: solid #3882F6 1px;
+    color: white;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
 }
 
 .info-header {
@@ -161,8 +174,8 @@ h2, p {
     border-color: white;
     color: white;
     border-radius: 5px;
-    width: 120px;
-    height: 35px;
+    width: 110px;
+    height: 30px;
     border: 2px solid;
 }
 

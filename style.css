@@ -136,6 +136,8 @@ h2, p {
 
 .signup-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3882f6; 
     margin: 50px 300px;
     padding: 24px 90px;
@@ -146,7 +148,18 @@ h2, p {
 .call-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 1;
+}
+
+.signup-container button {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    border: 2px solid;
 }
 
 ul {

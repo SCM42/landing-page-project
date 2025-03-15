@@ -141,6 +141,7 @@ h2, p {
     color: #1f2937;
     font-style: italic;
     font-weight: 200;
+    padding: 0px 70px;
 }
 
 .author {
@@ -148,6 +149,7 @@ h2, p {
     color: #1f2937;
     font-weight: 500;
     align-self: flex-end;
+    padding: 0px 155px;
 }
 
 .signup-container {
